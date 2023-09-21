@@ -1,0 +1,11 @@
+<div class="conatiner">
+  <img [src]="foods.imageUrl" [alt]="foods.name" />
+  <div class="details">
+    <div class="header">
+      <span class="name">
+        {{ foods.name }}
+      </span>
+      <span class="favorite {{ foods.favorotie ? '' : 'not' }}">♥ </span>
+    </div>
+  </div>
+</div>
